@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devika Enterprise | Steel & Hardware Solutions</title>
+    <meta name="description" content="Premium steel products and hardware solutions from Devika Enterprise. Quality materials for construction and industrial applications.">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="image/devikafavicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+     <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+<header class="fixed w-full bg-white shadow-none z-50">
+  <nav class="px-6 py-4 flex justify-between items-center w-full">
+    <!-- Logo -->
+    <a href="index.html" class="flex items-center space-x-2">
+      <img src="image/DEVAKI.png" alt="Devika Enterprise Logo" class="h-14 w-auto" />
+    </a>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-8 items-center">
+      <!-- Home -->
+      <a href="index.html" class="relative text-secondary font-bold transition duration-300 hover:text-[#ea580c] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">
+        HOME
+      </a>
+
+      <!-- Products Dropdown -->
+      <div class="relative group">
+        <a href="product.html" class="relative nav-link text-secondary font-bold hover:text-[#ea580c] transition flex items-center after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] group-hover:after:w-full after:transition-all after:duration-300">
+          ALL PRODUCTS <i class="fas fa-chevron-down ml-1 text-sm"></i>
+        </a>
+
+        <!-- Dropdown Menu -->
+        <div class="absolute left-0 mt-2 w-64 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-50 p-4 flex flex-col space-y-2 text-left">
+          <!-- Repeat for all dropdown items -->
+          <a href="msflats.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. FLATS</a>
+          <a href="msangles.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. ANGLES</a>
+          <a href="msbeam.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. BEAM</a>
+          <a href="msrounds.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. ROUND</a>
+          <a href="mssquares.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. SQUARE</a>
+          <a href="mschannels.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. CHANNEL</a>
+          <a href="hrsheets.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">HR SHEETS</a>
+          <a href="crsheets.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">CR SHEETS</a>
+          <a href="msroundpipes.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. ROUND PIPES</a>
+          <a href="msrectangularpipes.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. RECTANGULAR PIPES</a>
+          <a href="roofingsheets.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">ROOFING SHEETS</a>
+          <a href="mssquarepipes.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. SQUARE PIPES</a>
+          <a href="msplates.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. PLATES</a>
+          <a href="guiderails.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">GUIDE RAILS</a>
+          <a href="hollowguide.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">HOLLOW GUIDE</a>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <a href="contact.html" class="relative text-secondary font-bold transition duration-300 hover:text-[#ea580c] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">
+        CONTACT
+      </a>
+
+      <!-- Enquiry -->
+      <a href="enquiry.html" class="relative text-secondary font-bold transition duration-300 hover:text-[#ea580c] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">
+        ENQUIRY
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden focus:outline-none" id="menu-toggle">
+      <i class="fas fa-bars text-2xl text-secondary"></i>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <!-- Mobile Menu -->
+  <!-- ✅ Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden bg-white w-full py-4 px-6 shadow-lg">
+  <div class="flex flex-col space-y-4 text-left">
+    <a href="index.html" class="text-secondary font-bold hover:text-accent transition">HOME</a>
+
+    <!-- ✅ ALL PRODUCTS Dropdown -->
+    <div class="w-full">
+      <button id="dropdown-toggle" class="w-full flex justify-between items-center text-secondary font-bold focus:outline-none">
+        <span>ALL PRODUCTS</span>
+        <svg id="dropdown-icon" class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor"
+             viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      <!-- ✅ Dropdown Content -->
+      <div id="dropdown-menu" class="mt-2 space-y-2 pl-4 flex flex-col hidden">
+        <a href="msflats.html" class="text-secondary font-medium hover:text-accent transition">M.S. FLATS</a>
+        <a href="msangles.html" class="text-secondary font-medium hover:text-accent transition">M.S. ANGLES</a>
+        <a href="msbeam.html" class="text-secondary font-medium hover:text-accent transition">M.S. BEAM</a>
+        <a href="msrounds.html" class="text-secondary font-medium hover:text-accent transition">M.S. ROUND</a>
+        <a href="mssquares.html" class="text-secondary font-medium hover:text-accent transition">M.S. SQUARE</a>
+        <a href="mschannels.html" class="text-secondary font-medium hover:text-accent transition">M.S. CHANNEL</a>
+        <a href="hrsheets.html" class="text-secondary font-medium hover:text-accent transition">HR SHEETS</a>
+        <a href="crsheets.html" class="text-secondary font-medium hover:text-accent transition">CR SHEETS</a>
+        <a href="msroundpipes.html" class="text-secondary font-medium hover:text-accent transition">M.S. ROUND PIPES</a>
+        <a href="msrectangularpipes.html" class="text-secondary font-medium hover:text-accent transition">M.S. RECTANGULAR PIPES</a>
+        <a href="roofingsheets.html" class="text-secondary font-medium hover:text-accent transition">ROOFING SHEETS</a>
+        <a href="mssquarepipes.html" class="text-secondary font-medium hover:text-accent transition">M.S. SQUARE PIPES</a>
+        <a href="msplates.html" class="text-secondary font-medium hover:text-accent transition">M.S. PLATES</a>
+        <a href="guiderails.html" class="text-secondary font-medium hover:text-accent transition">GUIDE RAILS</a>
+        <a href="hollowguide.html" class="text-secondary font-medium hover:text-accent transition">HOLLOW GUIDE</a>
+      </div>
+    </div>
+
+    <a href="contact.html" class="text-secondary font-bold hover:text-accent transition">CONTACT</a>
+    <a href="enquiry.html" class="text-secondary font-bold hover:text-accent transition">ENQUIRY</a>
+  </div>
+</div>
+
+</header>
+
+
+
+  <!-- Product Section -->
+
+<main class="pt-32 pb-16 container mx-auto px-6">
+<h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-6 text-center">
+    Our Product Catalog
+  </h2>
+  <h2 class="text-2xl font-bold mb-8">MS Structure Steel</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <a href="msflats.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms-flats_1.png" alt="MS Flats" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Flats</p>
+    </a>
+    <a href="msangles.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms_angles_7.png" alt="MS Angles" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Angles</p>
+    </a>
+    <a href="mschannels.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms_channels_7.png" alt="MS Channels" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Channels</p>
+    </a>
+    <a href="msrounds.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms_rounds_7.png" alt="MS Rounds" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Rounds</p>
+    </a>
+    <a href="mssquares.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms_squares_7.png" alt="MS Squares" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Squares</p>
+    </a>
+    <a href="msbeam.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/msbeam_3.png" alt="MS Beam" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Beam</p>
+    </a>
+  </div>
+</main>
+
+<main class="pt-8 pb-16 container mx-auto px-6">
+  <h2 class="text-2xl font-bold mb-4 mt-4">MS Plates</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <a href="msplates.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms_plates_7.png" alt="MS Plates" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Plates</p>
+    </a>
+    <a href="hrsheets.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms-sheets-hr_1.png" alt="HR Sheets" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">HR Sheets</p>
+    </a>
+    <a href="crsheets.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms-sheets-cr_1.png" alt="CR Sheets" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">CR Sheets</p>
+    </a>
+    <a href="roofingsheets.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/roofing-sheets_3.png" alt="Roofing Sheets" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">Roofing Sheets</p>
+    </a>
+  </div>
+</main>
+
+<main class="pt-8 pb-16 container mx-auto px-6">
+  <h2 class="text-2xl font-bold mb-4 mt-4">MS Pipes</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <a href="msroundpipes.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms-round-pipes_1.png" alt="MS Round Pipes" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Round Pipes</p>
+    </a>
+    <a href="msrectangularpipes.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/ms-rectangle_1.png" alt="MS Rectangular Pipes" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Rectangular Pipes</p>
+    </a>
+    <a href="mssquarepipes.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/gp-square-pipes.png" alt="MS Square Pipes" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">MS Square Pipes</p>
+    </a>
+  </div>
+</main>
+
+<main class="pt-8 pb-16 container mx-auto px-6">
+  <h2 class="text-2xl font-bold mb-4 mt-4">Guide Rails For Elevator</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <a href="guiderails.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/elevators.jpg" alt="Guide Rails" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">Guide Rails</p>
+    </a>
+    <a href="hollowguide.html" class="block bg-white rounded shadow hover:shadow-lg transition text-center">
+      <img src="image/hollow.jpg" alt="Hollow Guide" class="w-full h-48 object-cover rounded-t transition duration-300 transform hover:scale-105 hover:opacity-80" />
+      <p class="py-2 font-semibold hover:text-blue-600">Hollow Guide</p>
+    </a>
+  </div>
+</main>
+
+<!--Footer content-->
+
+  <div class="bg-[#050617] text-white">
+
+  <!-- Contact Section -->
+  <section class="bg-[#050617] text-white py-8 px-4">
+    <div class="max-w-7xl mx-auto">
+
+      <!-- Contact Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-left md:text-center">
+        
+        <!-- Requirement -->
+        <div>
+          <h4 class="font-bold text-sm md:text-base uppercase">TELL US YOUR REQUIREMENTS</h4>
+          <p class="text-gray-400 text-sm">Discuss it with our steel expert</p>
+        </div>
+
+        <!-- Call Us -->
+        <div class="flex flex-col items-start md:items-center">
+          <a href="tel:7878850851" class="flex items-center gap-2 hover:underline">
+            <div class="bg-gray-800 p-2 rounded">
+              <i class="fas fa-phone-alt text-white text-base"></i>
+            </div>
+            <div class="text-left md:text-center">
+              <p class="font-bold text-sm uppercase">CALL US</p>
+              <p class="text-gray-300 text-sm">7878 850 851</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="flex flex-col items-start md:items-center">
+          <a href="https://wa.me/917878850851" target="_blank" class="flex items-center gap-2 hover:underline">
+            <div class="bg-gray-800 p-2 rounded">
+              <i class="fab fa-whatsapp text-green-400 text-base"></i>
+            </div>
+            <div class="text-left md:text-center">
+              <p class="font-bold text-sm uppercase">WHATSAPP US</p>
+              <p class="text-gray-300 text-sm">7878 850 851</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Email -->
+        <div class="flex flex-col items-start md:items-center">
+          <a href="mailto:devikaenterprise15578@gmail.com" class="flex items-center gap-2 hover:underline">
+            <div class="bg-gray-800 p-2 rounded">
+              <i class="fas fa-envelope text-blue-400 text-base"></i>
+            </div>
+            <div class="text-left md:text-center">
+              <p class="font-bold text-sm uppercase">EMAIL US</p>
+              <p class="text-gray-300 text-sm">devikaenterprise15578@gmail.com</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Divider Line -->
+      <div class="border-t border-gray-700 my-8"></div>
+
+      <!-- Steel Categories -->
+      <div class="space-y-6 text-sm text-gray-300 grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- MS Structure Steel -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">MS Structure Steel</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="msflats.html" class="hover:underline">MS Flats</a> |
+            <a href="msangles.html" class="hover:underline">MS Angles</a> |
+            <a href="mschannels.html" class="hover:underline">MS Channels</a> |
+            <a href="msrounds.html" class="hover:underline">MS Rounds</a> |
+            <a href="mssquares.html" class="hover:underline">MS Squares</a> |
+            <a href="msbeam.html" class="hover:underline">MS Beam</a> 
+          </p>
+        </div>
+
+        <!-- MS Plates -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">MS Plates</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="msplates.html" class="hover:underline">MS Plates</a> |
+            <a href="hrsheets.html" class="hover:underline">HR Sheets</a> |
+            <a href="crsheets.html" class="hover:underline">CR Sheets</a> |
+            <a href="roofingsheets.html" class="hover:underline">Roofing Sheets</a>
+          </p>
+        </div>
+
+        <!-- MS Pipes -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">MS Pipes</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="mssquarepipes.html" class="hover:underline">MS Square Pipes</a> |
+            <a href="msrectangularpipes.html" class="hover:underline">MS Rectangular Pipes</a> |
+            <a href="msroundpipes.html" class="hover:underline">MS Round Pipes</a>
+          </p>
+        </div>
+        
+        <!-- Elevator -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">Guide Rails for Elevator</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="guiderails.html" class="hover:underline">Guide Rails</a> |
+            <a href="hollowguide.html" class="hover:underline">Hollow Guide</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+<footer class="bg-[#040b21] text-gray-300 py-10 px-6 mt-12">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+
+    <div>
+      <div class="flex items-center gap-4 mb-4">
+        <img src="image/devika1.png" alt="Devika Logo" class="w-36" />
+      </div>
+
+      <!-- Company Descriptions -->
+      <div class="mb-4">
+        <p class="font-semibold text-white">Devika Enterprise</p>
+        <p class="text-sm">India’s largest online steel marketplace</p>
+      </div>
+      <div>
+        <p class="font-semibold text-white">Jenish Trading</p>
+        <p class="text-sm">Trusted steel suppliers since 2009</p>
+      </div>
+    </div>
+
+    <!-- Second Column: Addresses -->
+    <div>
+      <h3 class="text-white font-bold mb-4">Registered Office</h3>
+      <address class="not-italic text-sm leading-relaxed mb-6">
+        508 Rosevill Sky, Nr Kalyan Chowk,<br />
+        Opp Croma Showroom, Nikol Naroda Road,<br />
+        Nikol, Ahmedabad, 382330
+      </address>
+
+      <h3 class="text-white font-bold mb-4">Godown Address</h3>
+      <address class="not-italic text-sm leading-relaxed">
+        Survey No 810, Main Road Nr Swaminarayan Gurukul,<br />
+        B/h Kanbha Police Station, Kanbha, Ahmedabad - 382430
+      </address>
+    </div>
+
+    <!-- Third Column: CIN, GST, Payment -->
+    <div>
+      <h3 class="text-white font-bold mb-4">Company Info</h3>
+      <p class="text-sm mb-1">VIPUL PATEL - 9825970851</p>
+      <p class="text-sm mb-6">GSTIN: 37AAXCS0067P1ZE</p>
+
+      <h3 class="text-white font-bold mb-4">Payment Options</h3>
+      <div class="flex flex-wrap items-center gap-4">
+        <img src="image/visa.jpg" alt="Visa" class="h-8 w-auto" />
+        <img src="image/mastercard.jpg" alt="MasterCard" class="h-8 w-auto" />
+        <img src="image/americanexpress.jpg" alt="American Express" class="h-8 w-auto" />
+        <img src="image/rupay.jpg" alt="RuPay" class="h-8 w-auto" />
+        <img src="image/banktransfer.jpg" alt="Bank Transfer" class="h-8 w-auto" />
+      </div>
+    </div>
+
+  </div>
+</footer>
+<div class="bg-[#040b21] text-gray-400 text-center py-4 text-sm border-t border-gray-700">
+  © 2025 Devika Enterprise & Jenish Trading. All rights reserved.
+</div>
+</div>
+
+ <a href="https://wa.me/917878850851" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat">
+</a>
+<script>
+// ✅ Mobile Menu Toggle
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    }
+
+    // ✅ Handle ALL PRODUCTS dropdown in mobile menu
+    const dropdownToggle = document.getElementById('dropdown-toggle');
+    const dropdownMenu = document.getElementById('dropdown-menu');
+    const dropdownIcon = document.getElementById('dropdown-icon');
+
+    if (dropdownToggle && dropdownMenu && dropdownIcon) {
+      dropdownToggle.addEventListener('click', () => {
+        dropdownMenu.classList.toggle('hidden');
+        dropdownIcon.classList.toggle('rotate-180');
+      });
+    }
+</script>
+</body>
+</html>

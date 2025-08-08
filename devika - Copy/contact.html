@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Devika Enterprise</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Choices.js CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devika Enterprise | Steel & Hardware Solutions</title>
+    <meta name="description" content="Premium steel products and hardware solutions from Devika Enterprise. Quality materials for construction and industrial applications.">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="image/devikafavicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+     <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .choices__inner {
+      min-height: 44px;
+      border-radius: 0.5rem;
+    }
+	
+	.whatsapp-float {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #25d366; /* WhatsApp green */
+    border: 2px solid #128c4a; /* Darker green border */
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .whatsapp-float img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .whatsapp-float:hover {
+    background-color: #128c4a; /* Darker green on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+  
+  h2.text-3xl.font-bold.text-gray-800.mb-4 {
+    margin-top: 20px;
+}
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+ <header class="fixed w-full bg-white shadow-none z-50">
+  <nav class="px-6 py-4 flex justify-between items-center w-full">
+    <!-- Logo -->
+    <a href="index.html" class="flex items-center space-x-2">
+      <img src="image/DEVAKI.png" alt="Devika Enterprise Logo" class="h-14 w-auto" />
+    </a>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-8 items-center">
+      <!-- Home -->
+      <a href="index.html" class="relative text-secondary font-bold transition duration-300 hover:text-[#ea580c] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">
+        HOME
+      </a>
+
+      <!-- Products Dropdown -->
+      <div class="relative group">
+        <a href="product.html" class="relative nav-link text-secondary font-bold hover:text-[#ea580c] transition flex items-center after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] group-hover:after:w-full after:transition-all after:duration-300">
+          ALL PRODUCTS <i class="fas fa-chevron-down ml-1 text-sm"></i>
+        </a>
+
+        <!-- Dropdown Menu -->
+        <div class="absolute left-0 mt-2 w-64 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-50 p-4 flex flex-col space-y-2 text-left">
+          <!-- Repeat for all dropdown items -->
+          <a href="msflats.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. FLATS</a>
+          <a href="msangles.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. ANGLES</a>
+          <a href="msbeam.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. BEAM</a>
+          <a href="msrounds.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. ROUND</a>
+          <a href="mssquares.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. SQUARE</a>
+          <a href="mschannels.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. CHANNEL</a>
+          <a href="hrsheets.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">HR SHEETS</a>
+          <a href="crsheets.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">CR SHEETS</a>
+          <a href="msroundpipes.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. ROUND PIPES</a>
+          <a href="msrectangularpipes.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. RECTANGULAR PIPES</a>
+          <a href="roofingsheets.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">ROOFING SHEETS</a>
+          <a href="mssquarepipes.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. SQUARE PIPES</a>
+          <a href="msplates.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">M.S. PLATES</a>
+          <a href="guiderails.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">GUIDE RAILS</a>
+          <a href="hollowguide.html" class="relative text-secondary font-bold hover:text-[#ea580c] transition duration-200 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">HOLLOW GUIDE</a>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <a href="contact.html" class="relative text-secondary font-bold transition duration-300 hover:text-[#ea580c] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">
+        CONTACT
+      </a>
+
+      <!-- Enquiry -->
+      <a href="enquiry.html" class="relative text-secondary font-bold transition duration-300 hover:text-[#ea580c] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#ea580c] hover:after:w-full after:transition-all after:duration-300">
+        ENQUIRY
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden focus:outline-none" id="menu-toggle">
+      <i class="fas fa-bars text-2xl text-secondary"></i>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <!-- Mobile Menu -->
+  <!-- ✅ Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden bg-white w-full py-4 px-6 shadow-lg">
+  <div class="flex flex-col space-y-4 text-left">
+    <a href="index.html" class="text-secondary font-bold hover:text-accent transition">HOME</a>
+
+    <!-- ✅ ALL PRODUCTS Dropdown -->
+    <div class="w-full">
+      <button id="dropdown-toggle" class="w-full flex justify-between items-center text-secondary font-bold focus:outline-none">
+        <span>ALL PRODUCTS</span>
+        <svg id="dropdown-icon" class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor"
+             viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      <!-- ✅ Dropdown Content -->
+      <div id="dropdown-menu" class="mt-2 space-y-2 pl-4 flex flex-col hidden">
+        <a href="msflats.html" class="text-secondary font-medium hover:text-accent transition">M.S. FLATS</a>
+        <a href="msangles.html" class="text-secondary font-medium hover:text-accent transition">M.S. ANGLES</a>
+        <a href="msbeam.html" class="text-secondary font-medium hover:text-accent transition">M.S. BEAM</a>
+        <a href="msrounds.html" class="text-secondary font-medium hover:text-accent transition">M.S. ROUND</a>
+        <a href="mssquares.html" class="text-secondary font-medium hover:text-accent transition">M.S. SQUARE</a>
+        <a href="mschannels.html" class="text-secondary font-medium hover:text-accent transition">M.S. CHANNEL</a>
+        <a href="hrsheets.html" class="text-secondary font-medium hover:text-accent transition">HR SHEETS</a>
+        <a href="crsheets.html" class="text-secondary font-medium hover:text-accent transition">CR SHEETS</a>
+        <a href="msroundpipes.html" class="text-secondary font-medium hover:text-accent transition">M.S. ROUND PIPES</a>
+        <a href="msrectangularpipes.html" class="text-secondary font-medium hover:text-accent transition">M.S. RECTANGULAR PIPES</a>
+        <a href="roofingsheets.html" class="text-secondary font-medium hover:text-accent transition">ROOFING SHEETS</a>
+        <a href="mssquarepipes.html" class="text-secondary font-medium hover:text-accent transition">M.S. SQUARE PIPES</a>
+        <a href="msplates.html" class="text-secondary font-medium hover:text-accent transition">M.S. PLATES</a>
+        <a href="guiderails.html" class="text-secondary font-medium hover:text-accent transition">GUIDE RAILS</a>
+        <a href="hollowguide.html" class="text-secondary font-medium hover:text-accent transition">HOLLOW GUIDE</a>
+      </div>
+    </div>
+
+    <a href="contact.html" class="text-secondary font-bold hover:text-accent transition">CONTACT</a>
+    <a href="enquiry.html" class="text-secondary font-bold hover:text-accent transition">ENQUIRY</a>
+  </div>
+</div>
+
+</header>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">Get in touch with our team for inquiries or quotes</p>
+      </div>
+
+      <div class="flex flex-col lg:flex-row gap-10">
+        <!-- Form -->
+        <div class="w-full lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
+          <form id="inquiryForm" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label class="block mb-1 font-medium">Name</label>
+                <input type="text" id="name" required class="w-full border px-4 py-2 rounded-lg" />
+              </div>
+              <div>
+                <label class="block mb-1 font-medium">Mobile Number</label>
+                <input type="tel" id="mobile" required class="w-full border px-4 py-2 rounded-lg" />
+              </div>
+              <div class="md:col-span-2">
+                <label class="block mb-1 font-medium">Business Name</label>
+                <input type="text" id="business" class="w-full border px-4 py-2 rounded-lg" />
+              </div>
+              <div class="md:col-span-2">
+                <label class="block mb-1 font-medium">Location</label>
+                <input type="text" id="location" required class="w-full border px-4 py-2 rounded-lg" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block mb-1 font-medium">Select Product(s)</label>
+              <select id="productSelect" multiple class="w-full border px-4 py-2 rounded-lg"></select>
+            </div>
+
+            <div id="sizeDropdowns" class="space-y-4"></div>
+
+            <div>
+              <button type="submit" class="w-full bg-green-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-green-700 transition">
+                Send on WhatsApp
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="w-full lg:w-1/2 bg-gray-50 p-8 rounded-lg">
+          <h3 class="text-2xl font-bold mb-6 text-gray-800">Contact Information</h3>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <i class="fas fa-map-marker-alt text-xl text-gray-800 mr-4 mt-1"></i>
+              <div>
+                <h4 class="font-medium mb-1">Office Address</h4>
+                <p class="text-gray-600">
+                  <a href="https://maps.app.goo.gl/88jZo3KJPUqJFq2Y7" target="_blank" class="text-black hover:underline">
+                    508 Rosevill Sky, Nr Kalyan Chowk, Opp Croma Showroom, Nikol Naroda, Ahmedabad - 382330
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <i class="fas fa-warehouse text-xl text-gray-800 mr-4 mt-1"></i>
+              <div>
+                <h4 class="font-medium mb-1">Godown Address</h4>
+                <p class="text-gray-600">
+                  <a href="https://maps.app.goo.gl/UzUe95uGgTjsGBas7" target="_blank" class="text-black hover:underline">
+                    Survey No 810, Main Road Nr Swaminarayan Gurukul, B/h Kanbha Police Station, Kanbha, Ahmedabad
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <i class="fas fa-phone-alt text-xl text-gray-800 mr-4 mt-1"></i>
+              <div>
+                <h4 class="font-medium mb-1">Phone Number</h4>
+                <p class="text-gray-600">
+                  <a href="tel:+917878850851" class="text-black hover:underline">+91 78788 50851</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <i class="fas fa-envelope text-xl text-gray-800 mr-4 mt-1"></i>
+              <div>
+                <h4 class="font-medium mb-1">Email Address</h4>
+                <p class="text-gray-600">
+                  <a href="mailto:devikaenterprise15578@gmail.com" class="text-black hover:underline">
+                    devikaenterprise15578@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <i class="fas fa-clock text-xl text-gray-800 mr-4 mt-1"></i>
+              <div>
+                <h4 class="font-medium mb-1">Working Hours</h4>
+                <p class="text-gray-600">Monday - Saturday: 10:00 am - 07:00 pm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bg-[#050617] text-white">
+
+  <!-- Contact Section -->
+  <section class="bg-[#050617] text-white py-8 px-4">
+    <div class="max-w-7xl mx-auto">
+
+      <!-- Contact Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-left md:text-center">
+        
+        <!-- Requirement -->
+        <div>
+          <h4 class="font-bold text-sm md:text-base uppercase">TELL US YOUR REQUIREMENTS</h4>
+          <p class="text-gray-400 text-sm">Discuss it with our steel expert</p>
+        </div>
+
+        <!-- Call Us -->
+        <div class="flex flex-col items-start md:items-center">
+          <a href="tel:7878850851" class="flex items-center gap-2 hover:underline">
+            <div class="bg-gray-800 p-2 rounded">
+              <i class="fas fa-phone-alt text-white text-base"></i>
+            </div>
+            <div class="text-left md:text-center">
+              <p class="font-bold text-sm uppercase">CALL US</p>
+              <p class="text-gray-300 text-sm">7878 850 851</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="flex flex-col items-start md:items-center">
+          <a href="https://wa.me/917878850851" target="_blank" class="flex items-center gap-2 hover:underline">
+            <div class="bg-gray-800 p-2 rounded">
+              <i class="fab fa-whatsapp text-green-400 text-base"></i>
+            </div>
+            <div class="text-left md:text-center">
+              <p class="font-bold text-sm uppercase">WHATSAPP US</p>
+              <p class="text-gray-300 text-sm">7878 850 851</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Email -->
+        <div class="flex flex-col items-start md:items-center">
+          <a href="mailto:devikaenterprise15578@gmail.com" class="flex items-center gap-2 hover:underline">
+            <div class="bg-gray-800 p-2 rounded">
+              <i class="fas fa-envelope text-blue-400 text-base"></i>
+            </div>
+            <div class="text-left md:text-center">
+              <p class="font-bold text-sm uppercase">EMAIL US</p>
+              <p class="text-gray-300 text-sm">devikaenterprise15578@gmail.com</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Divider Line -->
+      <div class="border-t border-gray-700 my-8"></div>
+
+      <!-- Steel Categories -->
+      <div class="space-y-6 text-sm text-gray-300 grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- MS Structure Steel -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">MS Structure Steel</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="msflats.html" class="hover:underline">MS Flats</a> |
+            <a href="msangles.html" class="hover:underline">MS Angles</a> |
+            <a href="mschannels.html" class="hover:underline">MS Channels</a> |
+            <a href="msrounds.html" class="hover:underline">MS Rounds</a> |
+            <a href="mssquares.html" class="hover:underline">MS Squares</a> |
+            <a href="msbeam.html" class="hover:underline">MS Beam</a> 
+          </p>
+        </div>
+
+        <!-- MS Plates -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">MS Plates</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="msplates.html" class="hover:underline">MS Plates</a> |
+            <a href="hrsheets.html" class="hover:underline">HR Sheets</a> |
+            <a href="crsheets.html" class="hover:underline">CR Sheets</a> |
+            <a href="roofingsheets.html" class="hover:underline">Roofing Sheets</a>
+          </p>
+        </div>
+
+        <!-- MS Pipes -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">MS Pipes</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="mssquarepipes.html" class="hover:underline">MS Square Pipes</a> |
+            <a href="msrectangularpipes.html" class="hover:underline">MS Rectangular Pipes</a> |
+            <a href="msroundpipes.html" class="hover:underline">MS Round Pipes</a>
+          </p>
+        </div>
+        
+        <!-- Elevator -->
+        <div>
+          <h4 class="font-bold text-white uppercase mb-2">Guide Rails for Elevator</h4>
+          <p class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="guiderails.html" class="hover:underline">Guide Rails</a> |
+            <a href="hollowguide.html" class="hover:underline">Hollow Guide</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+<footer class="bg-[#040b21] text-gray-300 py-10 px-6 mt-12">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+
+    <div>
+      <div class="flex items-center gap-4 mb-4">
+        <img src="image/devika1.png" alt="Devika Logo" class="w-36" />
+      </div>
+
+      <!-- Company Descriptions -->
+      <div class="mb-4">
+        <p class="font-semibold text-white">Devika Enterprise</p>
+        <p class="text-sm">India’s largest online steel marketplace</p>
+      </div>
+      <div>
+        <p class="font-semibold text-white">Jenish Trading</p>
+        <p class="text-sm">Trusted steel suppliers since 2009</p>
+      </div>
+    </div>
+
+    <!-- Second Column: Addresses -->
+    <div>
+      <h3 class="text-white font-bold mb-4">Registered Office</h3>
+      <address class="not-italic text-sm leading-relaxed mb-6">
+        508 Rosevill Sky, Nr Kalyan Chowk,<br />
+        Opp Croma Showroom, Nikol Naroda Road,<br />
+        Nikol, Ahmedabad, 382330
+      </address>
+
+      <h3 class="text-white font-bold mb-4">Godown Address</h3>
+      <address class="not-italic text-sm leading-relaxed">
+        Survey No 810, Main Road Nr Swaminarayan Gurukul,<br />
+        B/h Kanbha Police Station, Kanbha, Ahmedabad - 382430
+      </address>
+    </div>
+
+    <!-- Third Column: CIN, GST, Payment -->
+    <div>
+      <h3 class="text-white font-bold mb-4">Company Info</h3>
+      <p class="text-sm mb-1">VIPUL PATEL - 9825970851</p>
+      <p class="text-sm mb-6">GSTIN: 37AAXCS0067P1ZE</p>
+
+      <h3 class="text-white font-bold mb-4">Payment Options</h3>
+      <div class="flex flex-wrap items-center gap-4">
+        <img src="image/visa.jpg" alt="Visa" class="h-8 w-auto" />
+        <img src="image/mastercard.jpg" alt="MasterCard" class="h-8 w-auto" />
+        <img src="image/americanexpress.jpg" alt="American Express" class="h-8 w-auto" />
+        <img src="image/rupay.jpg" alt="RuPay" class="h-8 w-auto" />
+        <img src="image/banktransfer.jpg" alt="Bank Transfer" class="h-8 w-auto" />
+      </div>
+    </div>
+
+  </div>
+</footer>
+<div class="bg-[#040b21] text-gray-400 text-center py-4 text-sm border-t border-gray-700">
+  © 2025 Devika Enterprise & Jenish Trading. All rights reserved.
+</div>
+</div>
+
+<a href="https://wa.me/917878850851" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp" 
+   rel="noopener noreferrer">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat" />
+</a>
+
+
+  <script>
+
+    // ✅ Mobile Menu Toggle
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    }
+
+    // ✅ Handle ALL PRODUCTS dropdown in mobile menu
+    const dropdownToggle = document.getElementById('dropdown-toggle');
+    const dropdownMenu = document.getElementById('dropdown-menu');
+    const dropdownIcon = document.getElementById('dropdown-icon');
+
+    if (dropdownToggle && dropdownMenu && dropdownIcon) {
+      dropdownToggle.addEventListener('click', () => {
+        dropdownMenu.classList.toggle('hidden');
+        dropdownIcon.classList.toggle('rotate-180');
+      });
+    }
+  const productOptions = {
+      "MS FLAT": [
+        "18 X 4", "20 X 3", "20 X 5", "25 X 3", "25 X 5", "25 X 6", "25 X 8", "25 X 10", "25 X 12",
+        "30 X 3", "30 X 5", "30 X 6", "30 X 8", "30 X 10", "30 X 12", "30 X 16", "32 X 6", "32 X 16",
+        "40 X 3", "40 X 5", "40 X 6", "40 X 8", "40 X 10", "40 X 12", "40 X 16", "40 X 20", "40 X 25",
+        "50 X 5", "50 X 6", "50 X 8", "50 X 10", "50 X 12", "50 X 16", "50 X 20", "50 X 25", "50 X 32", "50 X 40",
+        "65 X 6", "65 X 8", "65 X 10", "65 X 12", "65 X 16", "65 X 20", "65 X 25", "65 X 32", "65 X 40",
+        "75 X 6", "75 X 8", "75 X 10", "75 X 12", "75 X 16", "75 X 20", "75 X 25", "75 X 32", "75 X 40",
+        "100 X 6", "100 X 8", "100 X 10", "100 X 12", "100 X 16", "100 X 20", "100 X 25", "100 X 32", "100 X 40", "100 X 50",
+        "125 X 6", "125 X 8", "125 X 10", "125 X 12", "125 X 16", "125 X 20", "125 X 25", "125 X 32", "125 X 40",
+        "150 X 6", "150 X 8", "150 X 10", "150 X 12", "150 X 16", "150 X 20", "150 X 25", "150 X 32",
+        "175 X 6", "175 X 8", "175 X 10", "175 X 12", "175 X 16",
+        "200 X 6", "200 X 8", "200 X 10", "200 X 12", "200 X 16", "200 X 20", "200 X 25", "200 X 32",
+        "250 X 6", "250 X 8", "250 X 10", "250 X 12", "250 X 16", "250 X 20", "250 X 32",
+        "300 X 8", "300 X 10", "300 X 12", "300 X 16",
+        "350 X 10", "350 X 12"
+      ],
+      "MS ANGLE": ["25 X 25 X 3", "25 X 25 X 5", "30 X 30 X 3", "34 X 34 X 4", "35 X 35 X 5", "37 X 37 X 3", "40 X 40 X 3", "40 X 40 X 5", "40 X 40 X 6", "50 X 50 X 5", "50 X 50 X 6", "65 X 65 X 5", "65 X 65 X 6", "65 X 65 X 8", "65 X 65 X 10", "75 X 75 X 5", "75 X 75 X 6", "75 X 75 X 8", "75 X 75 X 10", "100 X 100 X 6", "100 X 100 X 8", "100 X 100 X 10"],
+      "MS CHANNEL": ["3 X 1.5 (28 KG) - LIGHT CHANNEL", "4 X 2 (40 KG) - LIGHT CHANNEL", "4 X 2 (48 KG) - LIGHT CHANNEL", "5 X 2.5 (60 KG) - LIGHT CHANNEL", "5 X 2.5 (77 KG) - LIGHT CHANNEL", "3 X 1.5 (35 KG) - REGULAR CHANNEL", "4 X 2 (55 KG) - REGULAR CHANNEL", "4 X 2 (80 KG) - REGULAR CHANNEL", "5 X 2.5 (105 KG) - REGULAR CHANNEL", "5 X 2.5 (140 KG) - REGULAR CHANNEL"],
+      "MS ROUND BAR": ["6 MM", "8 MM", "10 MM", "12 MM", "16 MM", "20 MM", "25 MM", "28 MM", "30 MM", "32 MM", "36 MM", "38 MM", "40 MM", "50 MM"],
+      "MS SQUARE BAR": ["6 MM", "8 MM", "10 MM", "12 MM", "16 MM", "20 MM", "25 MM", "28 MM", "30 MM", "32 MM", "36 MM", "38 MM", "40 MM", "50 MM"],
+      "MS BEAM": ["4 X 2", "5 X 2.5", "6 X 3", "8 X 4", "10 X 5", "12 X 5"],
+      "MS PLATES": ["MS Plates 6mmx1250x6300", "MS Plates 6mmx1500x6300", "MS Plates 6mmx1250x12000", "MS Plates 6mmx1500x12000", "MS Plates 8mmx1250x6300", "MS Plates 8mmx1500x6300", "MS Plates 8mmx1250x12000", "MS Plates 8mmx1500x12000", "MS Plates 10mmx1250x6300", "MS Plates 10mmx1500x12000", "MS Plates 10mmx1250x12000", "MS Plates 12mmx1500x12000", "MS Plates12mmx1500x6300", "MS Plates 12mmx1250x6300", "MS Plates 10mmx1500x6300", "MS CHEQUERED PLATE 1250X6300X4 MM", "MS CHEQUERED PLATE 1250X6300X5MM", "MS CHEQUERED PLATE 1250X6300X6 MM", "3 MM MS PLATE", "4 MM MS PLATE", "5 MM MS PLATE", "6 MM MS PLATE", "8 MM MS PLATE", "10 MM MS PLATE", "12 MM MS PLATE", "14 MM MS PLATE", "16 MM MS PLATE", "18 MM MS PLATE", "20 MM MS PLATE", "24 MM MS PLATE", "25 MM MS PLATE", "28 MM MS PLATE", "32 MM MS PLATE", "36 MM MS PLATE", "40 MM MS PLATE"],
+      "HR Sheets": ["MS SHEET 1250X2500 X 1.6 MM",
+        "MS SHEET 1250X2500 X 2 MM",
+        "MS SHEET 1250X2500 X 2.5 MM",
+        "MS SHEET 1250X2500 X 3 MM",
+        "MS SHEET 1250X2500 X 3.15 MM"],
+      "CR Sheets": ["0.3 MM", "0.5 MM", "0.6 MM", "0.8 MM", "1.0 MM", "1.2 MM", "1.6 MM", "2.0 MM"],
+      "Roofing Sheets": ["0.5MMX3.66 M GI ROOFING SHEET", "0.5MMX4.27 M GI ROOFING SHEET", "0.5MMX6.1 M GI ROOFING SHEET", "0.6MM X 5.5 M GI ROOFING SHEET", "0.50 MM ROOFING SHEET", "0.5MM GI RIDGES ROOFING SHEET"],
+      "MS Round Pipes": ["ROUND PIPE 65NBX1.6MM", "ROUND PIPE 50NBX1.8MM", "ROUND PIPE 25X1.4MM"],
+      "MS Square Pipes": ["SQUARE PIPE 30X30X2.0 MM", "SQUARE PIPE 25X25X1.6 MM", "SQUARE PIPE 25X25X2.0 MM", "SQUARE PIPE 20X20X1.6 MM", "SQUARE PIPE 50X50X2.0MM", "SQUARE PIPE 50X50X1.6 MM", "SQUARE PIPE 38X38X1.6 MM", "SQUARE PIPE 30X30X1.6 MM", "SQUARE PIPE 20X20X1.0 MM", "SQUARE PIPE 80X80X1.6 MM", "SQUARE PIPE 25X25X1.2 MM", "SQUARE PIPE 50X50X1.2 MM", "SQUARE PIPE 40x40x1.6 MM", "SQUARE PIPE 20X20X1.8 MM", "SQUARE PIPE 38X38X2.0 MM", "SQUARE PIPE 25X25X1.8 MM", "SQUARE PIPE 100X100X2.0MM"],
+      "MS Rectangular Pipes": ["REC PIPE 80X38X1.6 MM", "REC PIPE 80X80X1.5 MM", "REC PIPE 100X50X2.0 MM", "REC PIPE 80X40X2.0 MM", "REC PIPE 60X40X2.0 MM", "REC PIPE 60X40X1.6 MM", "REC PIPE 60X40X1.4 MM", "REC PIPE 50X25X2.0MM", "REC PIPE 50X25X1.6MM", "REC PIPE 40X20X2.0MM", "REC PIPE 40X20X1.8 MM", "REC PIPE 80X40X1.8 MM"],
+      "Guide Rails": ["45 X 45 X 5", "50 X 50 X 5", "70 X 65 X 9", "75 X 62 X 10", "89 X 12 X 16", "90 X 75 X 16", "114 X 89 X 16", "125 X 82 X 16", "127 X 89 X 16", "140 X 108 X 19", "140 X 102 X 28.6", "140 X 127 X 31.75"],
+    };
+
+  const productSelect = new Choices('#productSelect', {
+    removeItemButton: true,
+    searchEnabled: true,
+    placeholderValue: 'Select product(s)'
+  });
+
+  const sizeDropdownsDiv = document.getElementById('sizeDropdowns');
+  const sizeDropdownInstances = {};
+
+  // Populate product dropdown initially
+  Object.keys(productOptions).forEach(product => {
+    productSelect.setChoices([{ value: product, label: product }], 'value', 'label', false);
+  });
+
+  // Update sizes when products are selected
+  document.getElementById('productSelect').addEventListener('change', function () {
+    const selectedProducts = productSelect.getValue(true);
+    updateSizeDropdowns(selectedProducts);
+  });
+
+  function updateSizeDropdowns(selectedProducts) {
+    // Clear previous dropdowns
+    sizeDropdownsDiv.innerHTML = '';
+    Object.keys(sizeDropdownInstances).forEach(key => delete sizeDropdownInstances[key]);
+
+    selectedProducts.forEach(product => {
+      // Label
+      const label = document.createElement('label');
+      label.className = "block mb-1 font-medium";
+      label.textContent = `Select size(s) for ${product}`;
+
+      // Select
+      const select = document.createElement('select');
+      select.setAttribute('multiple', '');
+      select.className = "w-full border px-4 py-2 rounded-lg";
+
+      productOptions[product].forEach(size => {
+        const option = document.createElement('option');
+        option.value = size;
+        option.textContent = size;
+        select.appendChild(option);
+      });
+
+      sizeDropdownsDiv.appendChild(label);
+      sizeDropdownsDiv.appendChild(select);
+
+      // Choices.js for sizes
+      sizeDropdownInstances[product] = new Choices(select, {
+        removeItemButton: true,
+        searchEnabled: true,
+        placeholderValue: 'Select size(s)'
+      });
+    });
+  }
+
+  // WhatsApp Form Submission
+  document.getElementById('inquiryForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const mobile = document.getElementById('mobile').value.trim();
+    const business = document.getElementById('business').value.trim();
+    const location = document.getElementById('location').value.trim();
+
+    const selectedProducts = productSelect.getValue(true);
+
+    let message = `Inquiry Details:\n`;
+    message += `Name: ${name}\n`;
+    message += `Mobile: ${mobile}\n`;
+    message += `Business Name: ${business}\n`;
+    message += `Location: ${location}\n\nProducts & Sizes:\n\n`;
+
+    selectedProducts.forEach(product => {
+      const sizes = sizeDropdownInstances[product]?.getValue(true) || [];
+      message += `${product}:\n`;
+      message += sizes.length ? `${sizes.join(', ')}\n\n` : `No size selected\n\n`;
+    });
+
+    const whatsappNumber = "917878850851";
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappURL, '_blank');
+  });
+</script>
+
+</body>
+</html>
+
+
+

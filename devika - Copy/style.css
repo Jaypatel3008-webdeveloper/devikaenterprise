@@ -1,0 +1,670 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 0rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('metal-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 0px 0px;
+}
+
+ .herosection section {
+    border-radius: 0px !important;
+  }
+:root {
+   --primary: #1e3a8a;
+   --secondary: #334155;
+   --accent: #ea580c;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--secondary);
+            scroll-behavior: smooth;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image/banner-notext.CKk_-K7X.jpg') no-repeat center/cover;
+        }
+        
+        .nav-link:hover {
+            color: var(--accent) !important;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+        }
+        
+        .btn-primary:hover {
+            background: #1e40af;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .bg-primary.text-white.p-3.rounded-full.mr-4 {
+            color: black;
+        }
+.product-item img {
+  transition: transform 0.3s ease;
+  height: 20rem;
+}
+.product-item:hover img {
+  transform: scale(1.05);
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+img.w-full.h-64.object-cover {
+    height: 24rem !important;
+}
+
+.hidden.md\:flex.space-x-8.items-center {
+    color: black;
+}
+
+/* Animation Classes */
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.5s;
+}
+.delay-2 {
+  animation-delay: 1s;
+}
+.delay-3 {
+  animation-delay: 1.5s;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+/*MS FLATS*/
+
+/* Section Styling */
+
+/* Remove any margin/padding on html and body */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Make sure the first section has no top margin unless needed */
+section:first-of-type {
+  margin-top: 0 !important;
+}
+
+
+section {
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  section h2 {
+    font-size: 1.75rem;
+  }
+
+  section img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* Custom product image container if needed */
+.productimage {
+  margin-top: 1rem;
+}
+
+/* Ensure images are fully responsive */
+.product-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Optional padding around items on small screens */
+@media (max-width: 640px) {
+  .products-section {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .product-item {
+    margin-bottom: 1rem;
+  }
+
+  .product-item h3 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+.flex.flex-col.space-y-4 {
+    color: black;
+}
+.features-line {
+  background-color: #f7941d;
+  color: #000;
+  font-size: 17px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 96px; /* ✅ 96px gap between each item */
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  font-weight: bold;
+  margin-left: 5px;
+}
+    /* ✅ Mobile-specific layout: 2-column block, stacked lines */
+    @media (max-width: 767px) {
+      .features-line {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+        overflow: hidden;
+        white-space: normal;
+      }
+
+      .feature-item {
+        width: 48%; /* Two columns */
+        white-space: nowrap;
+        margin-left: 0px;
+      }
+    }
+
+    /* WhatsApp Floating Button */
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #25d366; /* WhatsApp green */
+    border: 2px solid #128c4a; /* Darker green border */
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .whatsapp-float img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .whatsapp-float:hover {
+    background-color: #128c4a; /* Darker green on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+
+/* 🔒 Hide WhatsApp Button on screens <= 767px (Mobile) */
+@media (max-width: 767px) {
+  .whatsapp-float {
+    display: none;
+  }
+}
+
+
+/*Product Catalog*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.catalog-header h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.catalog-header .view-all {
+  color: #0056d2;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr); /* desktop - 4 per row */
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-card img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.product-title {
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); /* mobile - 3 per row */
+  }
+
+  .catalog-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .catalog-header .view-all {
+    align-self: flex-end;
+  }
+
+  .hide-mobile {
+    display: none !important; /* Hide products beyond 3 */
+  }
+}
+
+
+/* Common grid styles */
+.product-grid {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* For MS Pipes Section */
+.custom-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Product card styling */
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.2s;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Responsive: Tablet */
+@media (max-width: 1024px) {
+  .custom-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 768px) {
+  .custom-grid-3 {
+    grid-template-columns: repeat(3, 1fr); /* 3 in a row for mobile too */
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-grid-3 {
+    grid-template-columns: repeat(1, 1fr); /* For very small devices */
+  }
+}
+
+/*=============*/
+
+/* Common grid styles */
+.product-grid {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* For MS Pipes Section */
+.custom-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Product card styling */
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.2s;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Force 3 in a row even on small devices */
+@media (max-width: 768px) {
+  .custom-grid-3 {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on mobile too */
+  }
+}
+
+/* Optional: For extra small screens, switch to 1 column */
+@media (max-width: 400px) {
+  .custom-grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*===========*/
+
+/* Base product grid style */
+.product-grid {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Custom grid for 3 items always */
+.custom-grid-3 {
+  grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Product card style */
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.2s;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* ✅ No responsive change needed — always 3 columns */
+
+
+/* Default layout for guide rails: 2 images per row */
+.guide-rails-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.guide-rails-grid .product-card {
+  flex: 1 1 50%; /* 2 images per row */
+  max-width: 50%;
+}
+
+/* Images styling same as upper section */
+.guide-rails-grid .product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Responsive: mobile view ma pan 2 images per row */
+@media (max-width: 600px) {
+  .guide-rails-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto; /* scroll if needed */
+  }
+
+  .guide-rails-grid .product-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+.guide-rails-grid .product-card img {
+    width: 100%;
+    height: 280px;
+    max-width: 575px;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  .guide-rails-grid .product-card img {
+    max-width: 100%;
+    height: auto;
+}
+}
+
+/*Hover effect*/
+
+/* Common style for product card */
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Blue tone image effect */
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(0) brightness(1) hue-rotate(210deg); /* bluish tone */
+  transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+/* Overlay on hover */
+.product-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); /* black overlay */
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* Arrow on hover */
+.product-card::before {
+  content: '→';
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.4s ease, right 0.4s ease;
+}
+
+/* Hover effects */
+.product-card:hover::after {
+  opacity: 1;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+  filter: grayscale(0) brightness(1.1) hue-rotate(210deg);
+}
+
+.product-card:hover::before {
+  opacity: 1;
+  right: 10px;
+}
+
+i.fas.fa-bars.text-2xl.text-secondary {
+    color: black;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  padding: 8px;
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+.product-title {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+ .contact-button {
+    color: black;
+    padding: 12px 0;
+    border-radius: 0.5rem; /* rounded-lg */
+    font-weight: 600; /* font-semibold */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow-md */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+  }
+
+  .call-btn {
+    background-color: #13b2f0;
+  }
+  .call-btn:hover {
+    background-color: #0e90d6;
+    color: white;
+  }
+
+  .whatsapp-btn {
+    background-color: #00d757;
+  }
+  .whatsapp-btn:hover {
+    background-color: #00b94a;
+    color: white;
+  }
